@@ -38,13 +38,16 @@ Questions
 
 	We would make the tree so that the leaves are the operands (1 2 3 4 5) and the nodes above are the operator (+). So this example would be a tree of depth 3.
 
-'''
+```
          +
+
       +     +
+
    +   3  4   5
+
  1   2
 
-'''
+```
 
 
 	The parser would have to parse tokens (operands) until we reach ")". We also have to allocate enough memory for the right number of leaf nodes (the operands)
